@@ -25,10 +25,10 @@ The following is an overview of the ready-to-go VMs:
 
 VM | vCPU/vRAM | IP Address| user/password |  Administrator password |
 ---|---|---|---|---|
-**oo-1070** | 2vCPU/4096 MB | 10.154.128.20 | vagrant | vagrant |
+**oo-1070** | 2vCPU/8192 MB | 10.154.128.20 | vagrant | vagrant |
 
-+ **Recommended hardware :** Computer with Multi-core CPU and 8GB+ memory
-+ **Note :** If your computer hardware is less than 8GB memory you should decrease vRAM in Vagrantfile, Windows2012R2 standard should work fine with 2048MB but with less performances
++ **Recommended hardware :** Computer with Multi-core CPU and 16GB+ memory
++ **Note :** If your computer hardware is less than 16GB memory you should decrease vRAM in Vagrantfile, Windows2012R2 standard should work fine with 4096MB but with less performances
 
 ## Installation
 
