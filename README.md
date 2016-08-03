@@ -62,7 +62,7 @@ In order to install bits you must first download them
 3. When the setup is done you will be able to connect to any of the VM using your favorite RDP client and credentials provided in [VMs details] (https://github.com/gilleslabs/learn-oo-studio#vms-details) 
 4. You will be able to connect to OO Central using Google Chrome and typing http://oo-designer.example.com:8080 from within the VM or from your host if you configure the host file accordingly
 
-## Know issue ##
+## Known issue ##
 On some laptop running Windows 10, copy/paste (both on the host and the VM) doesn't work anymore after the VM has been provisioned
 The workaround to fix it is to End Task **rdpclip.exe** on the VM 
 
