@@ -1,10 +1,10 @@
-# Vagrant learn-oo-studio
+# Vagrant learn-oo-1070
 
-Vagrant learn-oo-studio creates ready-to-go VM for [HP-OO EPR] (http://www8.hp.com/fr/fr/software-solutions/operations-orchestration-it-process-automation/) evaluation/testing
+Vagrant learn-oo-1070 creates ready-to-go VM for [HP-OO EPR] (http://www8.hp.com/fr/fr/software-solutions/operations-orchestration-it-process-automation/) evaluation/testing
 
 The following is an overview of the ready-to-go VMs:
 
-+ **oo-studio:** Windows 2012R2 Standard VM with below component installed 
++ **oo-1070:** Windows 2012R2 Standard VM with below component installed 
  + **Chocolatey:** A Machine Package Manager, like apt-get for Windows.
  + **Git**
  + **WinRar** 
