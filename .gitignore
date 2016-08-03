@@ -1,0 +1,9 @@
+# vagrant stuff
+/.vagrant
+EPR/
+*.zip
+*.rar
+*.exe
+
+
+
