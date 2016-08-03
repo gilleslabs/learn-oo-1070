@@ -3,6 +3,7 @@ mkdir ~/oo-src
 cp -R $env:SystemDrive/vagrant/src/* ~/oo-src/
 
 cd ~/oo-src
+cp $env:SystemDrive/vagrant/src/oo-silent-install ~/oo-src/epr/epr1070/build/
 
 ~/oo-src/epr/epr1070/build/installer-win64.exe -gm2 -s oo-silent-install | Out-Null
 
