@@ -1,8 +1,11 @@
 Enable-RemoteDesktop
 chocolatey feature enable -n=allowGlobalConfirmation
 choco install git
+choco install postgresql-9.3
+choco install pgadmin3
 choco install winrar
 choco install notepadplusplus
 choco install javaruntime
 choco install googlechrome
+choco install adobereader
 chocolatey feature disable -n=allowGlobalConfirmation

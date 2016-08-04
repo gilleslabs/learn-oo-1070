@@ -75,7 +75,7 @@
 ####### Central server database properties
 
 ### Define the database type
-# db.type=
+db.type=postgresql
 # Valid values: oracle, postgresql, mysql, mssql, h2, and other. 
 # Default value: h2
 # For db.type=mysql, db.driver.location MUST be set to the path of a MySQL JDBC driver (a JAR
@@ -109,17 +109,17 @@
 
 
 ### Define the database host name
-# db.host=
+db.host=localhost
 # Linkage: This property is ignored when db.url is used.
 
 
 ### Define the database port
-# db.port=
+db.port=5432
 # Linkage: This property is ignored when db.url is used.
 
 
 ### Define the database name or SID (depending on the type of database)
-# db.name=
+db.name=designer
 # Linkage: This property is ignored when db.url is used.
 # Example: db.name=ORCL
 # You cannot use special characters for the database name or SID, except the underscore (_).
@@ -127,7 +127,7 @@
 
 
 ### Define the name of the database user
-# db.username=
+db.username=designer
 # This user name is required when you use the option to create a database. 
 # The username is required also when connecting to an existing schema, the difference is 
 # that it’s not being created during the installation.
@@ -140,7 +140,7 @@
 
 
 ### Define the password of the database user
-# db.password=
+db.password=designer
 # This password is required when you use the option to create a database. 
 # The password is required also when connecting to an existing schema, the difference is 
 # that it’s not being created during the installation.
@@ -154,18 +154,18 @@
 ### Specify whether to create the database schema during installation
 # To create the database schema you must provide the admin user credentials. This is a database user capable of
 # creating a schema or database. Usually, this is a DBA user or a system user
-# db.create-schema=
+db.create-schema=true
 # Valid values: true, false
 # Default: false
 
 
 ### Define the admin user of the database
-# db.admin.username=
+db.admin.username=postgres
 # Used to create a schema/database/user
 # Example: db.admin.username=postgres
 
 ### Define the database admin user password
-# db.admin.password=
+db.admin.password=Ur@n!um824
 # Used to create a schema/database/user
 # Example: db.admin.password=manager
 	
