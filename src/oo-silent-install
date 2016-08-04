@@ -119,7 +119,7 @@ db.port=5432
 
 
 ### Define the database name or SID (depending on the type of database)
-db.name=designer
+db.name=central
 # Linkage: This property is ignored when db.url is used.
 # Example: db.name=ORCL
 # You cannot use special characters for the database name or SID, except the underscore (_).
@@ -127,7 +127,7 @@ db.name=designer
 
 
 ### Define the name of the database user
-db.username=designer
+db.username=central
 # This user name is required when you use the option to create a database. 
 # The username is required also when connecting to an existing schema, the difference is 
 # that it’s not being created during the installation.
@@ -140,7 +140,7 @@ db.username=designer
 
 
 ### Define the password of the database user
-db.password=designer
+db.password=central
 # This password is required when you use the option to create a database. 
 # The password is required also when connecting to an existing schema, the difference is 
 # that it’s not being created during the installation.

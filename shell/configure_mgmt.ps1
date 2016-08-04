@@ -17,7 +17,7 @@ set-ItemProperty -Path 'HKCU:\Software\Microsoft\Internet Explorer\main' -Name "
 
 $file = "$env:windir\System32\drivers\etc\hosts"
 "10.154.128.20 oo-designer.example.com" | Add-Content -PassThru $file
-
+choco install -y googlechrome
 $env:Path = $env:Path + ";C:\Program Files\Git\usr\bin"
 Restart-Computer -Force
 
