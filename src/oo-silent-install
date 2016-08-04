@@ -109,7 +109,7 @@ db.type=postgresql
 
 
 ### Define the database host name
-db.host=localhost
+db.host=127.0.0.1
 # Linkage: This property is ignored when db.url is used.
 
 
