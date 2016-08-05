@@ -12,6 +12,8 @@ The following is an overview of the ready-to-go VMs:
  + **Google Chrome**
  + **HP-OO Studio**
  + **HP-OO Central**
+ + **Postgresql 9.3**
+ + **pgadmin**
 
 ## Requirements
 
