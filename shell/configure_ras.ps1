@@ -3,9 +3,9 @@ mkdir ~/oo-src
 cp -R $env:SystemDrive/vagrant/src/* ~/oo-src/
 
 cd ~/oo-src
-cp $env:SystemDrive/vagrant/src/oo-silent-install ~/oo-src/epr/epr1070/build/
+cp $env:SystemDrive/vagrant/src/oo-silent-install-ras ~/oo-src/epr/epr1070/build/
 
-~/oo-src/epr/epr1070/build/installer-win64.exe -gm2 -s oo-silent-install | Out-Null
+~/oo-src/epr/epr1070/build/installer-win64.exe -gm2 -s oo-silent-install-ras | Out-Null
 
 
 $1 = New-WinUserLanguageList en-US
@@ -20,6 +20,6 @@ $file = "$env:windir\System32\drivers\etc\hosts"
 choco install -y googlechrome
 $env:Path = $env:Path + ";C:\Program Files\Git\usr\bin"
 netsh advfirewall set allprofiles state off
-Rename-Computer OOCENTRAL
+Rename-Computer OORAS
 Restart-Computer -Force
 
