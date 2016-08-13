@@ -1,4 +1,4 @@
-
+$env:chocolateyVersion = '0.9.9.12'
 $ChocoInstallPath = "$env:SystemDrive\ProgramData\Chocolatey\bin"
 					
   if (!(Test-Path $ChocoInstallPath)) {
